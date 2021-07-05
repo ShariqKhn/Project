@@ -23,6 +23,8 @@ public class BankManagerLoginTest extends TestBase
 		log.debug("LoginTest is sucessfully exceuted..!!");
 		Reporter.log("LoginTest is sucessfully exceuted..!!");
 		
+		System.out.println("Changes in file");
+		
 		
 	}
 
