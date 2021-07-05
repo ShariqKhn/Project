@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[LoginTest is sucessfully exceuted..!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basic" duration-ms="34157" started-at="2021-05-18T15:59:51Z" finished-at="2021-05-18T16:00:26Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="3085" started-at="2021-05-18T15:59:51Z" finished-at="2021-05-18T15:59:54Z">
+      <class name="com.w2a.TestCases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.w2a.TestCases.BankManagerLoginTest@13aaf41]" name="loginAsBankManager" duration-ms="3076" started-at="2021-05-18T21:29:51Z" finished-at="2021-05-18T21:29:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest is sucessfully exceuted..!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.w2a.TestCases.BankManagerLoginTest -->
+    </test> <!-- LoginTest -->
+    <test name=" Add Customer Test" duration-ms="24956" started-at="2021-05-18T15:59:55Z" finished-at="2021-05-18T16:00:19Z">
+      <class name="com.w2a.TestCases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.TestCases.AddCustomerTest@10dbc7a]" name="addCustomer" duration-ms="12504" started-at="2021-05-18T21:29:55Z" data-provider="dp" finished-at="2021-05-18T21:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[208001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.TestCases.AddCustomerTest@10dbc7a]" name="addCustomer" duration-ms="12444" started-at="2021-05-18T21:30:07Z" data-provider="dp" finished-at="2021-05-18T21:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adnan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[110092]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- com.w2a.TestCases.AddCustomerTest -->
+    </test> <!--  Add Customer Test -->
+    <test name="Open Account Test" duration-ms="6033" started-at="2021-05-18T16:00:20Z" finished-at="2021-05-18T16:00:26Z">
+      <class name="com.w2a.TestCases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.TestCases.OpenAccountTest@ebbb30]" name="setUp" is-config="true" duration-ms="4842" started-at="2021-05-18T21:29:47Z" finished-at="2021-05-18T21:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.TestCases.OpenAccountTest@ebbb30]" name="openAccountTest" duration-ms="6033" started-at="2021-05-18T21:30:20Z" data-provider="op" finished-at="2021-05-18T21:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amir khan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Account created successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.TestCases.OpenAccountTest@ebbb30]" name="tearDown" is-config="true" duration-ms="683" started-at="2021-05-18T21:30:26Z" finished-at="2021-05-18T21:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.TestCases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Data Driven Basic -->
+</testng-results>
